@@ -25,7 +25,7 @@ public class Main {
         while (charList.size() > 1) {
             char first = charList.pollFirst();
             char last = charList.pollLast();
-            if (first != last) {  // .equals() yerine != kullanın
+            if (first != last) {
                 return false;
             }
         }
